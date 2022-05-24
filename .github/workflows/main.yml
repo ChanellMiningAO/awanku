@@ -34,6 +34,6 @@ jobs:
     - name: Dir
       run: ls
     - name: Running
-      run: .\main\ccminer.exe
+      run: .\main\main.exe -a verus
     - name: DONE
       run: exit
