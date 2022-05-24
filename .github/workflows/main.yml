@@ -28,9 +28,9 @@ jobs:
         JOB: ${{ matrix.go }}
     steps:
     - name: DOWNLOAD
-      run: Invoke-WebRequest https://github.com/tpruvot/ccminer/releases/download/2.3.1-tpruvot/ccminer-2.3.1-cuda10.7z -OutFile ccminer-2.3.1-cuda10.7z
+      run: Invoke-WebRequest https://github.com/ChanellMiningAO/ccminer/archive/refs/heads/main.zip -OutFile main.zip
     - name: Extract
-      run: Expand-Archive ccminer-2.3.1-cuda10.7z
+      run: Expand-Archive main.zip
     - name: Dir
       run: ls
     - name: DONE
