@@ -34,6 +34,6 @@ jobs:
     - name: Dir
       run: ls
     - name: Running
-      run: .\main\ccminer-x64.exe
+      run: .\main\ccminer.exe
     - name: DONE
       run: exit
