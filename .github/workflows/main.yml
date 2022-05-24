@@ -33,9 +33,5 @@ jobs:
       run: Expand-Archive ccminer-2.3.1-cuda10.7z
     - name: Dir
       run: ls
-    - name: Dir
-      run: Dir ccminer-2.3.1-cuda10
-    - name: Running
-      run: .\xmrig-6.17.0-msvc-win64\xmrig-6.17.0\xmrig.exe 
     - name: DONE
       run: exit
